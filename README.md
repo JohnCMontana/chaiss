@@ -1,6 +1,6 @@
-# chaiss
+# ChAiss
 
-**Chaiss ♟️** is a lightweight chess analysis overlay that reads the live board directly from the DOM and delivers real-time engine suggestions.
+**ChAiss ♟️** is a lightweight chess analysis overlay that reads the live board directly from the DOM and delivers real-time engine suggestions.
 
 Instead of screen capture or computer vision, Chaiss injects a content script into supported sites (e.g. Chess.com), parses the board state from the page’s DOM, reconstructs the position, and sends it to Stockfish for instant best-move analysis ⚡
 
@@ -13,4 +13,4 @@ It runs externally from the game logic — no platform modification — just cle
   - 📊 Lightweight overlay with best move hints
   - 🪶 Fast, minimal, non-intrusive
 
-**Chaiss = pure DOM + engine power.**
+**ChAiss = pure DOM + engine power.**
